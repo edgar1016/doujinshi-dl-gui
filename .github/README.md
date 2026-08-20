@@ -7,7 +7,7 @@ doujinshi-dl-gui is a graphical user interface for interacting with RicterZ's do
 ## Features
 
 - Configure various download options using checkboxes, input fields, and dropdown menus.
-- Set default options and presets for easy command configuration.
+- Presets for easy command configuration.
 - Allows for searching and sorting results.
 - Select files to download using .txt files.
 - Interactive interface for setting your API token.
@@ -43,10 +43,9 @@ doujinshi-dl-gui is a graphical user interface for interacting with RicterZ's do
 or you can just paste the path in the Output Folder input box as needed.
 - When you have a default folder set, any content entered into the Output Folder box will be appended to the end of your default folder path. This is particularly handy for organizing multiple doujins from the same series into specific subfolders within your default folder.
 
-**Set and Update Presets** 
-- You can create presets for options you frequently use by right clicking on the presets button in the title bar and clicking `Add preset`. You'll be prompted to give the preset a name then click ok. All created presets will be listed under the presets tab in the menu bar.
-- You can update presets with the `current` options selected by right clicking on the presets button in the title bar and clicking `Update Preset` select the preset you want to update and clicking `Update`.
-- Currently the only way to `delete` presets is by opening `settings.ini` and deleting them manually. The file is located at `%APPDATA%\doujinshi-dl-gui\settings.ini`.
+**Set, Delete, Rearrange & Update Presets** 
+- Right click on the presets button or go to File -> Options -> `Manage Presets ` to open the Presets windows.
+- Presets are stored within `settings.ini` the file is located in `%APPDATA%\doujinshi-dl-gui\settings.ini`.
 
 ## Setting Your API Token
 
