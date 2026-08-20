@@ -69,7 +69,7 @@ Keep the GUI running so the built-in local bridge (`http://127.0.0.1:31363/galle
 
 
 ## Screenshots
-![Alt text](images/doujinshi-dl-gui.png)
+![Alt text](../images/doujinshi-dl-gui.png)
 
 ## Acknowledgements
 
