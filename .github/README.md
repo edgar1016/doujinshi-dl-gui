@@ -21,7 +21,7 @@ doujinshi-dl-gui is a graphical user interface for interacting with RicterZ's do
 - PyQt6 library
 - RicterZ's doujinshi-dl
 ## Optional
-- Load the [doujinshi-dl-gui-browser-extension](https://codeberg.org/Edgar1016/doujinshi-dl-gui-browser-extension) Chrome/Brave extension to send gallery IDs straight to the app.
+- Load the [doujinshi-dl-gui-browser-extension](https://github.com/edgar1016/doujinshi-dl-gui-browser-extension) Chrome/Brave extension to send gallery IDs straight to the app.
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ doujinshi-dl-gui authenticates using an API token instead of cookies.
 
 ## Optional: Brave/Chrome Helper Extension
 
-Load the helper from the [doujinshi-dl-gui-browser-extension](https://codeberg.org/Edgar1016/doujinshi-dl-gui-browser-extension) repository to unlock this convenience:
+Load the helper from the [doujinshi-dl-gui-browser-extension](https://github.com/edgar1016/doujinshi-dl-gui-browser-extension) repository to unlock this convenience:
 
 - **Gallery ID bridge:** on a supported gallery page, left-click the gallery ID heading to append it to `ids_input`, or hold `Ctrl`/`Cmd` and left-click to clear first (when enabled). The extension shows desktop notifications whenever IDs are pushed successfully.
 - **Not using the bridge?** Disable it in the GUI via `File -> Options -> Enable Extension Bridge` to stop the local server entirely.
